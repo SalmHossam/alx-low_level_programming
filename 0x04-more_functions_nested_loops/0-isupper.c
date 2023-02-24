@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * _isupper check if the digit id upper case or not
- *
- * Return 1 for uppercase else Return 0
+ * _isupper - Check if the digit id upper case or not
+ *@c: The number to be checked
+ * Return: 1 for uppercase else Return: 0
  */
 
-int _isupper (int c)
+int _isupper(int c)
 {
 
 	if (c >= 65 && c <= 90)
