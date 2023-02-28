@@ -4,18 +4,21 @@
 
 /**
  * print_rev - This function print the reverse of string
- * @str: Parameter string of function
+ * @s: Parameter string of function
  * Return: void
  */
 void print_rev(char *s)
 {
 
-	int i = s.size();
-	string str= "";
+	int i, n;
 
-	for (; i>=0; i--)
+	while (s[n] != '\0')
+		n++;
+
+	for (i = n; i >= 0; i--)
 	{
-	str+=s[i];
+	_putchar(s[i]);
 	}
+	_putchar('\n');
 }
 
