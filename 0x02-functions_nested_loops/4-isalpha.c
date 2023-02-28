@@ -3,6 +3,7 @@
 
 /**
  * _isalpha - checks for alphabetic character.
+ * @c: char variable
  * Return: if it's alphabet 1 else 0
  */
 int _isalpha(int c)
