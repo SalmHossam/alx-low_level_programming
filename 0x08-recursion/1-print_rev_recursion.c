@@ -3,6 +3,7 @@
 /**
  * _print_rev_recursion - Function reverse string using recursion
  *
+ * @s: Pointer to the string to be measured.
  */
 
 void _print_rev_recursion(char *s)
