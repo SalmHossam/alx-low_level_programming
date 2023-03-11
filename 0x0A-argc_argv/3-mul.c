@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 /**
- * main - Prints it's name
+ * main - Prints multplication of two args
  * @argc: argument count
  *@argv: arguments vector
  *
@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	if(argc == 3)
 	{
 		n1 = atoi(argv[1]);
-		n2 = atoi(srgv[2]);
+		n2 = atoi(argv[2]);
 		printf("%d\n", n1 * n2);
 	}
 	else
@@ -26,3 +26,4 @@ int main(int argc, char *argv[])
         
 
         return (0);
+}
